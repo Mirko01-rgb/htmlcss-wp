@@ -54,49 +54,123 @@ main{
 .parte1{
   background-image:url(../img/banner.jpg);
   background-size: cover;
-  border-radius: 10px;
+  background-position: center;
+  border-radius: 13px;
+  color: white;
+  position: relative;
   /* debug */
-  background-color: orange;
-  height:600px;
+   /* background-color: lightpink; */
+  /* height:500px; */
+}
 
+.layover{
+ background-color: rgba(0, 0, 0, 0.2);
+ width: 100%;
+ height: 500px;
+ border-radius:13px;
+}
+
+.contenitore-testi{
+  width: 50%;
+  position: absolute;
+  left:50px;
+  bottom: 70px;
+
+}
+
+.testo1{
+  font-size: 32px;
+}
+
+.testo2{
+  font-size: 18px;
 }
 
 .parte2{
-  /* debug */
-  background-color: lightblue;
-  height:70px;
-  margin-top: 10px;
+ margin-top: 40px;
+ /* debug */
+ /* background-color: lightblue; */
+ height:70px;
+
 }
+
+.testo3{
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+.testo4{
+  font-size: 17px;
+  color: grey;
+}
+
 
 .sezione1{
   float: left;
   width: 22.5%;
-  margin-top: 10px;
+  margin-top: 40px;
   /* debug */
-  background-color: lightblue;
-  height:100px;
+  /* background-color: lightblue; */
+  /* height:300px; */
 
+}
+
+.immagine1{
+ background-image:url(../img/img-1.jpg);
+ height: 200px;
+ background-position: center;
+
+}
+.layover2{
+ background-color: rgba(0, 0, 0, 0.2);
+ width: 100%;
+ height: 100%;
+ border-radius:13px;
+}
+
+.margin{
+  margin-top: 40px;
+  color: grey;
+}
+
+.colore-testo{
+ color: grey;
 }
 
 .sezione2{
   float: left;
   width: 50%;
-  margin: 10px 2.5%;
+  margin: 40px 2.5%;
   /* debug */
-  background-color: lightblue;
-  height:100px;
+  /* background-color: lightblue; */
+
 }
+
+.immagine2{
+  background-image: url(../img/banner-2.jpg);
+  background-size: cover;
+  background-position: center;
+  height:200px;
+}
+
 
 .sezione3{
   float: left;
   width: 22.5%;
-  margin-top: 10px;
+  margin-top: 40px;
   /* debug */
-  background-color: lightblue;
-  height:100px;
+  /* background-color: lightblue; */
+  /* height:300px; */
 
 }
 
+.immagine3{
+  background-image: url(../img/img-3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
 
 .footer{
   /* debug */
