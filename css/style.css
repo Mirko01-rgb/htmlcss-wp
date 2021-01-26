@@ -4,13 +4,13 @@
   border: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: ‘Montserrat’, sans-serif;
 }
 
 .parte3-row::after{
   content: "";
   display: table;
   clear: both;
-
 }
 
 .container{
@@ -22,21 +22,42 @@
 header{
  height: 100px;
  /* debug */
- background-color: red;
+ /* background-color: red; */
+}
+
+header img{
+  width: 140px;
+}
+
+#main-nav li{
+  display: inline-block;
+  list-style-type: none;
+}
+
+#main-nav li a{
+  color: grey;
+  text-decoration: none;
+}
+
+.spazio {
+ margin: 0 5px;
 }
 
 /* regole main */
 
 main{
- margin: 10px 0;
+ margin: 30px 0;
 }
 
 
 /* Parte main */
 .parte1{
+  background-image:url(../img/banner.jpg);
+  background-size: cover;
+  border-radius: 10px;
   /* debug */
   background-color: orange;
-  height:200px;
+  height:600px;
 
 }
 
