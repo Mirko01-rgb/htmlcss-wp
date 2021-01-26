@@ -1,0 +1,84 @@
+/* Regole generali */
+
+*{
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parte3-row::after{
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.container{
+  width: 80%;
+  margin: 0 10%;
+}
+
+/* Parte header */
+header{
+ height: 100px;
+ /* debug */
+ background-color: red;
+}
+
+/* regole main */
+
+main{
+ margin: 10px 0;
+}
+
+
+/* Parte main */
+.parte1{
+  /* debug */
+  background-color: orange;
+  height:200px;
+
+}
+
+.parte2{
+  /* debug */
+  background-color: lightblue;
+  height:70px;
+  margin-top: 10px;
+}
+
+.sezione1{
+  float: left;
+  width: 22.5%;
+  margin-top: 10px;
+  /* debug */
+  background-color: lightblue;
+  height:100px;
+
+}
+
+.sezione2{
+  float: left;
+  width: 50%;
+  margin: 10px 2.5%;
+  /* debug */
+  background-color: lightblue;
+  height:100px;
+}
+
+.sezione3{
+  float: left;
+  width: 22.5%;
+  margin-top: 10px;
+  /* debug */
+  background-color: lightblue;
+  height:100px;
+
+}
+
+
+.footer{
+  /* debug */
+  height: 40px;
+  background-color: purple;
+}
