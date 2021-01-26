@@ -60,7 +60,7 @@ main{
   position: relative;
   /* debug */
    /* background-color: lightpink; */
-  /* height:500px; */
+  /* height:500px;   */
 }
 
 .layover{
@@ -177,5 +177,5 @@ footer{
   font-size: 20px;
   /* debug */
   /* height: 40px; */
-   /* background-color: purple; */
+   /* background-color: purple;  */
 }
